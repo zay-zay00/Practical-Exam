@@ -1,0 +1,57 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  body {
+    background-image: url('https://images.template.net/97316/free-cute-green-aesthetic-background-u8pu8.jpg'); /* Replace 'your-image.jpg' with the path or URL to your image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+    color: white; /* Ensures the text stands out against the background */
+}
+
+
+
+  /* Style the sidebar navigation menu */
+  #mySidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: pink;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  /* Sidebar links */
+  #mySidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* On hover, change link color */
+  #mySidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Open the sidebar */
+  #mySidebar.open {
+    width: 300px;
+  }
+  
+  /* Close button (top right) */
+  #mySidebar .w3-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  
+  
